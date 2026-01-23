@@ -1,0 +1,184 @@
+# Site Settings
+name: Shaikh Eamin
+tagline: RTL Design Engineer | VLSI Enthusiast | Quantum Computing Security Researcher
+email: eamin.shaikh@example.com
+location: Dhaka, Bangladesh
+github: https://github.com/ShaikhEamin
+linkedin: https://www.linkedin.com/in/shaikh-eamin/
+
+# About
+about: "I'm a passionate RTL Design Engineer based in Dhaka, Bangladesh, with a strong background in Electrical & Electronic Engineering from AIUB (CGPA: 3.68/4.00). My expertise spans across digital circuit design, FPGA programming, and hardware security."
+
+philosophy: "I believe in engineering by first principles. The most robust and elegant solutions emerge from deep understanding of semiconductor physics, cryptographic protocols, and sustainable hardware design."
+
+contact_message: "I'm always open to discussing new projects, research collaborations, or opportunities in RTL design and VLSI engineering."
+
+# Education
+education:
+  degree: B.Sc. in Electrical & Electronic Engineering
+  university: American International University-Bangladesh (AIUB)
+  cgpa: 3.68/4.00
+
+# Research Interests
+interests:
+  - RTL Design & VLSI
+  - Quantum Computing Security
+  - IoT & Embedded Systems
+  - Low-Power Hardware Design
+  - Post-Quantum Cryptography
+
+# Skills
+skills:
+  - name: Programming Languages
+    icon: fas fa-code
+    items:
+      - Python
+      - SystemVerilog
+      - VHDL
+      - C++
+      - MATLAB
+      - Rust
+      - Assembly  
+  
+  - name: EDA Tools & Platforms
+    icon: fas fa-microchip
+    items:
+      - Cadence
+      - Synopsys
+      - Mentor Graphics
+      - Altium Designer
+      - Vivado
+      - Quartus  
+  
+  - name: Hardware & Embedded Systems
+    icon: fas fa-cogs
+    items:
+      - FPGA
+      - Arduino
+      - Raspberry Pi
+      - ESP32
+      - STM32
+      - RISC-V  
+  
+  - name: Security & Cryptography
+    icon: fas fa-shield-alt
+    items:
+      - OpenSSL
+      - Cryptography
+      - Quantum Computing
+      - Post-Quantum  
+  
+  - name: Data Science & ML
+    icon: fas fa-brain
+    items:
+      - NumPy
+      - Pandas
+      - TensorFlow
+      - PyTorch
+      - Matplotlib
+      - SciPy  
+  
+  - name: DevOps & Cloud
+    icon: fas fa-tools
+    items:
+      - Git
+      - Docker
+      - Linux
+      - VS Code
+      - GitHub Actions
+
+# Projects
+projects:
+  - title: IoT Power Theft Protection System
+    icon: 🚀
+    description: Comprehensive IoT-based system with piezoelectric sensors and real-time monitoring for power theft prevention with 99.2% accuracy.
+    tags:
+      - ESP32
+      - LoRaWAN
+      - Python
+      - TensorFlow
+    stats:
+      - icon: fas fa-chart-line
+        text: 30% theft reduction
+      - icon: fas fa-battery-full
+        text: 6 months battery life  
+  
+  - title: Quantum-Resistant Cryptographic Hardware
+    icon: 🔒
+    description: Post-quantum cryptographic algorithms optimized for low-power embedded systems with 40% power reduction and 3x faster performance.
+    tags:
+      - FPGA
+      - SystemVerilog
+      - CRYSTALS-Dilithium
+      - Vivado
+    stats:
+      - icon: fas fa-bolt
+        text: 40% power savings
+      - icon: fas fa-shield-alt
+        text: 128-bit security  
+  
+  - title: RISC-V Processor with Custom ISA
+    icon: ⚡
+    description: 5-stage pipeline RISC-V RV32I core with specialized crypto instructions achieving 200MHz on FPGA with 95% test coverage.
+    tags:
+      - SystemVerilog
+      - RISC-V
+      - UVM
+      - Xilinx
+    stats:
+      - icon: fas fa-tachometer-alt
+        text: 200MHz frequency
+      - icon: fas fa-check-circle
+        text: 95% coverage  
+  
+  - title: Smart Environmental Monitoring Network
+    icon: 🌡️
+    description: Large-scale IoT network with 500+ nodes across 10km² featuring AI-powered analytics and 99.9% uptime for climate research.
+    tags:
+      - STM32
+      - AWS IoT
+      - TensorFlow Lite
+      - React
+    stats:
+      - icon: fas fa-network-wired
+        text: 500+ nodes
+      - icon: fas fa-chart-line
+        text: 99.9% uptime
+
+# Achievements
+achievements:
+  - title: Academic Excellence
+    icon: fas fa-graduation-cap
+    items:
+      - B.Sc. in EEE - CGPA 3.68/4.00
+      - A+ in Power Systems & VLSI
+      - IEEE ICPEICES 2024 Publication
+      - Capstone Project Lead  
+  
+  - title: Professional Experience
+    icon: fas fa-briefcase
+    items:
+      - Trainee Engineer at DESCO
+      - 10% efficiency improvement
+      - Hardware Design Intern
+      - Multi-disciplinary team lead  
+  
+  - title: Certifications
+    icon: fas fa-certificate
+    items:
+      - Google Project Management
+      - Semiconductor Fabrication 101
+      - Google IT Support Professional
+      - IEEE Student Member  
+  
+  - title: Highlights
+    icon: fas fa-trophy
+    items:
+      - 1,500+ Total Commits
+      - 50+ Repositories
+      - 200+ Stars Earned
+      - 100K+ Lines of Code
+
+# Build Settings
+theme: jekyll-theme-minimal
+markdown: kramdown
