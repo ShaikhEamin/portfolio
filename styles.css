@@ -1,0 +1,80 @@
+:root {
+    --primary-bg: #f3f4f6;
+    --secondary-bg: #ffffff;
+    --primary-color: #1d4ed8;
+    --secondary-color: #64748b;
+    --text-color: #111827;
+    --border-color: #e5e7eb;
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+}
+
+nav {
+    background-color: var(--secondary-bg);
+    box-shadow: 0 2px 4px var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+.hero {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.about, .skills, .projects, .achievements, .contact {
+    padding: 50px 20px;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+.footer {
+    background-color: var(--secondary-bg);
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fade 1s ease-in;
+}
